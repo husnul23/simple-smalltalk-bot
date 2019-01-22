@@ -6,7 +6,7 @@ const Promise = require('bluebird');
 Promise.config({
   cancellation: true
 });
-const token = '789653031:AAF4Syn38q-PmCJfL2rc4wFdrutabiNpwDY';
+const token = '789653031:AAEtFAiLU2xch5C72ozmcX8YjtXYlUUu-Ms';
 const mondayCoolBot = new Telegram(token, { polling: true });
 
 mondayCoolBot.on("message", chat => {
