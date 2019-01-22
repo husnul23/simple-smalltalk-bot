@@ -2,7 +2,10 @@
 
 const Telegram = require("node-telegram-bot-api");
 const Reply = require("./instance/axiosinstance");
-
+const Promise = require('bluebird');
+Promise.config({
+  cancellation: true
+});
 const token = '789653031:AAF4Syn38q-PmCJfL2rc4wFdrutabiNpwDY';
 const mondayCoolBot = new Telegram(token, { polling: true });
 
