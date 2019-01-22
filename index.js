@@ -3,7 +3,7 @@
 const Telegram = require("node-telegram-bot-api");
 const Reply = require("./instance/axiosinstance");
 
-const token = '667885646:AAHiKhvI7I7A45XcuRr73wniZGPljbXbjkg';
+const token = '631444814:AAEhv6aiDDSWFndf_hmioif-qxTLZfZb-Uc';
 const mondayCoolBot = new Telegram(token, { polling: true });
 
 mondayCoolBot.on("message", chat => {
