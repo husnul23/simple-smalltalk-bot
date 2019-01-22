@@ -1,5 +1,3 @@
-// require("dotenv").config();
-
 const Telegram = require("node-telegram-bot-api");
 const Reply = require("./instance/axiosinstance");
 const Promise = require('bluebird');
