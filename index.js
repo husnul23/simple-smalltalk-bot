@@ -22,3 +22,5 @@ mondayCoolBot.on("message", chat => {
     }
   });
 });
+
+app.listen(port);
