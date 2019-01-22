@@ -8,7 +8,9 @@ Promise.config({
 });
 const token = '789653031:AAEtFAiLU2xch5C72ozmcX8YjtXYlUUu-Ms';
 const mondayCoolBot = new Telegram(token, { polling: true });
-const port = PORT || 8080;
+const port = process.env.PORT || 8080;
+const express = require('express');
+const app = express();
 
 mondayCoolBot.on("message", chat => {
   var chatId = chat.chat.id;
