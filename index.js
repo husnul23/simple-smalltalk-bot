@@ -1,9 +1,6 @@
 // require("dotenv").config();
 
 const Telegram = require("node-telegram-bot-api");
-Telegram.config({
-  cancellation: true
-});
 const Reply = require("./instance/axiosinstance");
 
 const token = '631444814:AAEhv6aiDDSWFndf_hmioif-qxTLZfZb-Uc';
